@@ -1,0 +1,11 @@
+/Users/hazdoce/Projects/sharp0/sharp0/bin/Debug/netcoreapp2.1/sharp0.deps.json
+/Users/hazdoce/Projects/sharp0/sharp0/bin/Debug/netcoreapp2.1/sharp0.runtimeconfig.json
+/Users/hazdoce/Projects/sharp0/sharp0/bin/Debug/netcoreapp2.1/sharp0.runtimeconfig.dev.json
+/Users/hazdoce/Projects/sharp0/sharp0/bin/Debug/netcoreapp2.1/sharp0.dll
+/Users/hazdoce/Projects/sharp0/sharp0/bin/Debug/netcoreapp2.1/sharp0.pdb
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.csprojAssemblyReference.cache
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.csproj.CoreCompileInputs.cache
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.AssemblyInfoInputs.cache
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.AssemblyInfo.cs
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.dll
+/Users/hazdoce/Projects/sharp0/sharp0/obj/Debug/netcoreapp2.1/sharp0.pdb

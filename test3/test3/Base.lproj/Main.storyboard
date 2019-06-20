@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jf-xl-guq">
+                                <rect key="frame" x="0.0" y="264" width="320" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.41694822459999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
+                                <color key="tintColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="😃">
+                                    <color key="titleColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.93370378519999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="wRC-A7-DoZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsS-Q3-JF6">
+                                <rect key="frame" x="0.0" y="174" width="320" height="40"/>
+                                <color key="backgroundColor" red="0.2286067034" green="0.2286067034" blue="0.2286067034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
+                                <color key="tintColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="😜">
+                                    <color key="titleColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.93370378519999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="z39-ID-lVu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nya-qC-ASB">
+                                <rect key="frame" x="0.0" y="346.5" width="320" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
+                                <color key="tintColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Hello">
+                                    <color key="titleColor" red="0.97113827720000001" green="0.97113827720000001" blue="0.97113827720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.93370378519999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="guE-Ps-cc2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfS-V2-7kV">
+                                <rect key="frame" x="16" y="527" width="75" height="21"/>
+                                <color key="backgroundColor" red="0.81563714379999996" green="0.81563714379999996" blue="0.81563714379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91809018782383423" green="0.91809018782383423" blue="0.91809018782383423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HsS-Q3-JF6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-90" id="DOR-yE-JP0"/>
+                            <constraint firstItem="Nya-qC-ASB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMj-9H-5G9"/>
+                            <constraint firstItem="8jf-xl-guq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OFl-eI-oOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hfS-V2-7kV" secondAttribute="bottom" constant="20" id="QKP-qC-kt8"/>
+                            <constraint firstItem="HsS-Q3-JF6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Qqq-FD-loB"/>
+                            <constraint firstItem="hfS-V2-7kV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="T20-Py-sJ1"/>
+                            <constraint firstItem="Nya-qC-ASB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="82.5" id="Ufe-79-qxn"/>
+                            <constraint firstItem="8jf-xl-guq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Yo6-b9-K5h"/>
+                            <constraint firstItem="8jf-xl-guq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lGm-Kj-Ujm"/>
+                            <constraint firstItem="Nya-qC-ASB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ugy-iL-ckK"/>
+                            <constraint firstItem="HsS-Q3-JF6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wUd-DW-bnd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="33"/>
+        </scene>
+    </scenes>
+</document>
